@@ -1,0 +1,24 @@
+{
+  "name": "operation-goldhawk",
+  "version": "1.0.0",
+  "description": "goldhawk",
+  "homepage": "https://github.com/andre-ortega/operation-goldhawk#readme",
+  "bugs": {
+    "url": "https://github.com/andre-ortega/operation-goldhawk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre-ortega/operation-goldhawk.git"
+  },
+  "license": "ISC",
+  "author": "Draymond",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+    "test": "apptest"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
