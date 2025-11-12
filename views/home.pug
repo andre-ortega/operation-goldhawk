@@ -1,0 +1,39 @@
+html(lang=en)
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title= "Destined Dust | Official Site"
+    link(rel="stylesheet", href="/stylesheets/home.css")
+    link(rel="preconnect", href="https://fonts.googleapis.com")
+    link(rel="preconnect", href="https://fonts.gstatic.com" crossorigin)
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap")
+  body
+    script.
+      0
+
+    header.navbar
+      .container
+        .logo-container
+          a(href="/" class="logo")
+            img(src="/images/drawing.svg" width="28" height="28")
+        .non-logo-container
+          .inner-non-logo-container
+            nav.nav-links
+              ul
+                li: a(href="/music") Music
+                li: a(href="/store") Store
+                li: a(href="/tour") Tour
+                li: a(href="/contact") Contact
+
+            .socials-container
+              a(href="https://instagram.com/destineddustofficial" target="_blank" rel="noopener noreferrer")
+                img(src="/images/instagram.svg" alt="Instagram" width="28" height="28" class="socials")
+
+    main.content
+      h1 Destined Dust
+      h2 Tour
+      p.
+        - Tour dates coming soon -
+
+    footer
+      p &copy; #{new Date().getFullYear()} Destined Dust. All rights reserved.

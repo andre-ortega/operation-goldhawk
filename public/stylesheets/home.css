@@ -1,0 +1,103 @@
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #060709
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  width: 260px;
+  margin: 0 auto;
+  text-align: center;
+  color: #e3d3de;
+}
+
+h2 {
+  color: #e3d3de;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.logo-container {
+  width: 10%;
+  display: inline-block;
+}
+
+.inner-non-logo-container {
+  width: auto;
+  display: flex;
+  justify-content: right;
+}
+
+.non-logo-container {
+  display: inline-block;
+  width: 90%;
+}
+
+.logo {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.navbar .logo {
+}
+
+.socials {
+  display: inline-block;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #e3d3de;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #c7adbd;
+}
+
+.socials-container {
+  display: inline-block;
+}
+
+.socials-container a {
+  margin-left: 0.75rem;
+  text-decoration: none;
+  font-size: 1.0rem;
+}
+
+.social-icons a:hover {
+  color: #e3d3de;
+}
+
+main.content {
+  padding: 2rem;
+  text-align: center;
+  color: #e3d3de;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e3d3de;
+  margin-top: 2rem;
+}
